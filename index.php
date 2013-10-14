@@ -2,7 +2,7 @@
 
 
 <div class="container">
-	<p>Oh Harro!</p>
+	<h1>Word</h1>
 </div>
 
 <?php include 'footer.php'; ?>
