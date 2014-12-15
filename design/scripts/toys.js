@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
 
 	$(function() {
 		$(document).ready( function() {
-			$('#sticky').stickUp();
+			$('.sticky').stickUp();
 		});
 	});
 
