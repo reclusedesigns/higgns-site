@@ -64,11 +64,7 @@ a:hover{
   color:#41a1c4;
 }
 
-/*input placeholder*/
-  ::-webkit-input-placeholder {font-weight:200;}
-  :-moz-placeholder {font-weight:200;}
-  ::-moz-placeholder {font-weight:200;}
-  :-ms-input-placeholder {font-weight:200;}
+
 
 .copyright p{
   color:#999;
@@ -152,13 +148,39 @@ a.next{
 }
 
 
+/* input */
+
+/*input placeholder*/
+::-webkit-input-placeholder {
+  font-weight:200;
+  font-size: 20px;
+  }
+:-moz-placeholder {
+  font-weight:200;
+  font-size: 20px;
+  }
+::-moz-placeholder {
+  font-weight:200;
+  font-size: 20px;
+  }
+:-ms-input-placeholder {
+  font-weight:200;
+  font-size: 20px;
+  }
+
+.hero input{
+  padding-top:12px;
+  font-size:20px;
+  font-weight:200;
+  color:#58c1e6;
+  }
 
 /*input submit*/
 input[type=submit] {
   background: url('../images/body/send.png') #29c478 no-repeat center center;
-  background-size:25px 25px;
+  background-size:20px 20px;
   display: block;
-  padding:6px 25px;
+  padding:6px 35px 6px 25px;
 }
 
 
