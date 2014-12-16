@@ -52,8 +52,8 @@ h2{
 
 p{
   font-family: 'PT Sans', sans-serif;
-  font-size:16px;
-  line-height:1.8em;
+  font-size:17px;
+  line-height:1.5em;
   }
 
 a{
@@ -197,8 +197,11 @@ input[type=submit] {
 
 
 @media(max-width:767px){
-  .container_white{padding:40px 40px;}
+  h1{font-size:28px;}
+  h2{font-size:22px;}
+  .container_white{padding:20px;}
   .hero{background-position:20% 20%;}
+  .hero img.logo{padding-bottom:30px;}
   .isStuck{background-image:none; padding:10px;}
 }
 
