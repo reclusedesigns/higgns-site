@@ -55,7 +55,7 @@ h2{
 
 p{
   font-family: 'Lato', sans-serif;
-  font-size:16px;
+  font-size:17px;
   line-height:2em;
   font-weight:100;
   color:#777;
@@ -190,16 +190,30 @@ input[type=submit] {
 
 
 /*sticky input plugin*/
+.sticky_logo{
+  display:none;
+  padding:0 0 10px;
+  }
+
 .isStuck{
   left:0;
   z-index: 1000;
   border-bottom:1px solid #ddd;
   padding:10px;
   transition: all 0.3s ease;
-  background: url('../images/sticky/logo.png')60px center no-repeat #fff;
+  background: #fff;
+  position:relative;
 }
 
+.isStuck .sticky_logo{
+  display:block;
+  position:absolute;
+  top:10px;
+  left:-60px;
+  z-index:900;
+}
 
+.hideme{opacity:0;}
 
 @media(max-width:767px){
   h1{font-size:28px;}
