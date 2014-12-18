@@ -20,6 +20,13 @@ body{
   padding-top:60px;
   }
 
+.section_footer img{
+  display:block;
+  width:112px;
+  height:86.5px;
+  margin:0 auto;
+}
+
 /*type*/
 
 h1{
@@ -158,24 +165,24 @@ a.next{
 /*input placeholder*/
 ::-webkit-input-placeholder {
   font-weight:200;
-  font-size: 20px;
+  font-size: 17px;
   }
 :-moz-placeholder {
   font-weight:200;
-  font-size: 20px;
+  font-size: 17px;
   }
 ::-moz-placeholder {
   font-weight:200;
-  font-size: 20px;
+  font-size: 17px;
   }
 :-ms-input-placeholder {
   font-weight:200;
-  font-size: 20px;
+  font-size: 17px;
   }
 
 .hero input{
-  padding-top:12px;
-  font-size:20px;
+  padding-top:8px;
+  font-size:17px;
   font-weight:200;
   color:#58c1e6;
   }
@@ -183,16 +190,15 @@ a.next{
 /*input submit*/
 input[type=submit] {
   background: url('../images/body/send.png') #29c478 no-repeat center center;
-  background-size:20px 20px;
+  background-size:18px 18px;
   display: block;
-  padding:6px 35px 6px 25px;
+  padding:2px 35px 12px 15px;
 }
 
 
 /*sticky input plugin*/
 .sticky_logo{
   display:none;
-  padding:0 0 10px;
   }
 
 .isStuck{
@@ -208,12 +214,10 @@ input[type=submit] {
 .isStuck .sticky_logo{
   display:block;
   position:absolute;
-  top:10px;
+  top:2px;
   left:-60px;
   z-index:900;
 }
-
-.hideme{opacity:0;}
 
 @media(max-width:767px){
   h1{font-size:28px;}
