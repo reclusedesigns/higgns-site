@@ -181,7 +181,7 @@ a.next{
   }
 
 .hero input{
-  padding-top:8px;
+  padding-top:8gpx;
   font-size:17px;
   font-weight:200;
   color:#58c1e6;
@@ -192,7 +192,7 @@ input[type=submit] {
   background: url('../images/body/send.png') #29c478 no-repeat center center;
   background-size:18px 18px;
   display: block;
-  padding:2px 35px 12px 15px;
+  padding:4px 35px 14px 15px;
 }
 
 
